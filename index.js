@@ -86,7 +86,7 @@ ishora(1, 1);
 // function disc(R) {
 //  S = 3* (R**2 * Pi);
 //  console.log(S);
- 
+
 // }
 
 // disc(1);
@@ -115,3 +115,56 @@ ishora(1, 1);
 //5----
 
 //6----
+
+//7----
+
+//Param👇--
+
+//1----
+// function MinElem(arr) {
+//   let min = arr[0];
+//   for(let i = 0; i < arr.length;i++) {
+//  if(arr[i]) {
+//     min < arr[i];
+//   }
+//   }
+//   return min;
+ 
+// }
+
+// const son = [1, 3, 4, 6, 7];
+// console.log(MinElem(son));
+//N,A dan chiqmadi
+//javob 1
+//2----
+// function BigElem(A) {
+//   let big = A[0];
+//   for(let i =0; i < A.length;i++) {
+//     if(A[i]) {
+//       big = A[i]
+//     }
+//   }
+//   return big;
+// }
+
+// const num = [2,5,6,8,10];
+// console.log(BigElem(num));
+//javob 10
+
+//3----
+function MinmaxNum(A, N,Nmin,Nmax) {
+  let a = A[0];
+  let n = N[0];
+  let min = M1[0];
+  let max = N1[0];
+  for(let i = 0; i < A,N,Nmin,Nmax; i++) {
+    if(MinmaxNum[i]) {
+    a = A[i];
+    n = N[i];
+    min = M1[i];
+     max = N1[i];
+    }
+  }
+  return a,n,min,max;
+}
+console.log(MinmaxNum(5, 8, 19, 20));
